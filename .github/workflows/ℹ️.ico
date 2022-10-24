@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<p id="ℹ️.ico"></p>
+<p id="ℹ️.svg"></p>
+
+<script>
+var parser, xmlDoc;
+var text = "<img src=ℹ️.svg onerror=alert(document.domain)>ℹ️<svg/onload=alert(document.domain)><img src=ℹ️.svg onerror=alert(document.domain)><script>alert(document.domain)</script>";
+
+parser = new DOMParser();
+xmlDoc = parser.parseFromString(text,"text/xml");
+
+document.getElementById("ℹ️.svg").innerHTML =
+xmlDoc.getElementsByTagName("title")[0].childNodes[0].nodeValue;
+</script>
+
+</body>
+</html>
