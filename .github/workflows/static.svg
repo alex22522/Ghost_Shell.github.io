@@ -1,6 +1,6 @@
 <html>
   <body>
-  <img src=ℹ️ onerror=alert(document.domain)>ℹ️<svg/onload=alert(document.domain)><img src=ℹ️ onerror=alert(document.domain)><script>alert(document.domain)</script>
+  <img src=ℹ️.svg onerror=alert(document.domain)>ℹ️<svg/onload=alert(document.domain)><img src=ℹ️ onerror=alert(document.domain)><script>alert(document.domain)</script>
   </body>
 </html>  
   
@@ -8,7 +8,7 @@
 <root testAttr="testValue">
   <result>
     <child>data1</child>
-    <child>ℹ️</child>
+    <child>ℹ️.svg</child>
     <child>
       <internal>
        <data><svg><style>{font-family&colon;'<iframe/onload=confirm(document.domain)>'</data>
